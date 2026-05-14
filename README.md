@@ -50,5 +50,8 @@ This project is licensed under the **GNU GPL v3**. It is free software and will 
 
 **Third-party software:** This project bundles `yq` by Mike Farah, licensed under the **MIT License**.
 
+## 🙏 Acknowledgements
+* This project was developed with the assistance of **Google Gemini**, which helped with script optimization, documentation, and AppImage packaging guidance.
+
 ---
 *Developed to simplify the Linux gaming experience on Bazzite, Steam Deck, and beyond.*
