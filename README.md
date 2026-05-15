@@ -38,6 +38,10 @@ Before the first run, make sure the file has permission to execute:
     * Select an icon or click **"Skip" (Pomiń)** to use the default one.
 5. **Shortcut Location:** Choose between "Desktop" or "Applications menu".
 
+## ⚠️ Known Issues
+* **App not detected:** If the program doesn't detect an application inside your bottle, create a shortcut manually within Bottles pointing to the desired file, then try running this tool again.
+* **Spaces in Bottle Names:** If your bottle name contains spaces (e.g., "Toon car") and the created shortcut doesn't work, check the `.desktop` file with a text editor. Ensure that spaces haven't been replaced by dashes (e.g., "Toon-car") in the execution command.
+
 ## 🏗️ Technical Structure
 The AppImage is built using the following structure:
 * `AppRun`: The entry point that executes the main script.
